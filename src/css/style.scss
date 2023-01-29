@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(201, 230, 173);
+}
+
+
+h1{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-inline: 20px;
+}
+
+.button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 10rem;
+    height: 100%;
+    object-fit: cover;
+}
